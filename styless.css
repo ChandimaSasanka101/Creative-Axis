@@ -18,7 +18,24 @@ body {
     font-family: 'Nexa', sans-serif;
     text-align: center;
     background-color: var(--black-color);
+    
 
+}
+
+/* Nexa Font එකේ Normal (ExtraLight) Weight එක Load කරන විදිය */
+@font-face {
+  font-family: 'Nexa'; /* Font එකේ නම */
+  src: url('nexa/Nexa-ExtraLight.ttf') format('truetype'); /* Font file එක තියෙන තැන */
+  font-weight: 300; /* මේක Light weight එකක් නිසා 300 වගේ අගයක් දාන්න */
+  font-style: normal;
+}
+
+/* Nexa Font එකේ Bold (Heavy) Weight එක Load කරන විදිය */
+@font-face {
+  font-family: 'Nexa'; /* Font එකේ නම එකමයි */
+  src: url('nexa/Nexa-Heavy.ttf') format('truetype'); /* අදාළ Heavy font file එක */
+  font-weight: 900; /* මේක Heavy නිසා 700 (bold) හෝ 900 (black/heavy) වගේ අගයක් දාන්න */
+  font-style: normal;
 }
 
 .particle {
